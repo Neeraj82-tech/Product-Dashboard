@@ -24,4 +24,6 @@ Key Commponents:
 
 7.Footer: The Footer component just gives current year at the end of the page.
 
+8. products.json:  Due to a CORS issue with the API, I used a local products.json file to simulate the product data.
+
 Deployment: Live Demo at [ https://productdashboardbyneeraj.netlify.app/ ]
