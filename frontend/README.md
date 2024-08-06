@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+Welcome, This project is a Product Dashboard built with React and Bootstrap, providing features such as filtering, sorting and pagination.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone the repository to your local store and cd repository Run the Dependencies, Ensure Node.js and npm is installed
 
-## Available Scripts
+npm i
+npm i react react-dom ( building user interfaces )
+npm install react-router-dom ( Routing for navigation )
+npm install react-bootstrap bootstrap ( Bootstrap components for React )
+npm start ( This will start the application at http://localhost:3000 )
+Key Commponents: 1.Header : The Header component is used to display the Heading Brand Name "Product-Dashboard" at the top of the application.
 
-In the project directory, you can run:
+2.HomeScreen: The HomeScreen component is the main page that displays a list of products. It includes: Filter, Sort, Pagination.
 
-### `npm start`
+3.Filter: The Filter component allows users to filter products based on search.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4.Sort: The Sort component provides sorting options for the products.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5.Pagination: The Pagination component manages the pagination of the product list.
 
-### `npm test`
+6.Product Screen: The ProductScreen component is the Product Detail page that displays all details of the product.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+7.Footer: The Footer component just gives current year at the end of the page.
 
-### `npm run build`
+Deployment: Live Demo at [ https://productdashboardbyneeraj.netlify.app/ ]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
