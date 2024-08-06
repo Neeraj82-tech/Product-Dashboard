@@ -10,6 +10,7 @@ Ensure Node.js and npm is installed
 5. npm start ( This will start the application at http://localhost:3000 )
 
 Key Commponents:
+
 1.Header : The Header component is used to display the Heading Brand Name "Product-Dashboard"  at the top of the application.
 
 2.HomeScreen: The HomeScreen component is the main page that displays a list of products. It includes: Filter, Sort, Pagination.
