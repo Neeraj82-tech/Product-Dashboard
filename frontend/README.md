@@ -1,13 +1,25 @@
 Welcome, This project is a Product Dashboard built with React and Bootstrap, providing features such as filtering, sorting and pagination.
 
-Clone the repository to your local store and cd repository Run the Dependencies, Ensure Node.js and npm is installed
+Clone the repository to your local store and cd repository.
 
-npm i
-npm i react react-dom ( building user interfaces )
-npm install react-router-dom ( Routing for navigation )
-npm install react-bootstrap bootstrap ( Bootstrap components for React )
-npm start ( This will start the application at http://localhost:3000 )
-Key Commponents: 1.Header : The Header component is used to display the Heading Brand Name "Product-Dashboard" at the top of the application.
+Run the Dependencies
+
+Ensure Node.js and npm is installed
+
+1.npm i
+
+2.npm i react react-dom ( building user interfaces )
+
+3.npm install react-router-dom ( Routing for navigation )
+
+4.npm install react-bootstrap bootstrap ( Bootstrap components for React )
+
+5.npm start ( This will start the application at http://localhost:3000 )
+
+
+Key Commponents:
+
+1.Header : The Header component is used to display the Heading Brand Name "Product-Dashboard" at the top of the application.
 
 2.HomeScreen: The HomeScreen component is the main page that displays a list of products. It includes: Filter, Sort, Pagination.
 
