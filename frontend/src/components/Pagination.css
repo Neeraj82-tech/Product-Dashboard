@@ -1,0 +1,36 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+  }
+  
+  .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; 
+  }
+  
+  .pagination .page-item {
+    width: auto;
+    text-align: center;
+  }
+  
+
+  @media (max-width: 768px) {
+    .pagination .page-item {
+      width: 30px; 
+    }
+  }
+  
+ 
+  @media (max-width: 480px) {
+    .pagination .page-item {
+      width: 25px; 
+    }
+  }
+
+  .pagination .page-item.active .page-link {
+    background-color: #007bff; 
+    color: white; 
+  }
+  
