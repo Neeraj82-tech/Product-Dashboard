@@ -21,5 +21,6 @@ Key Commponents: 1.Header : The Header component is used to display the Heading 
 
 7.Footer: The Footer component just gives current year at the end of the page.
 
-Deployment: Live Demo at [ https://productdashboardbyneeraj.netlify.app/ ]
+8.products.json: Due to a CORS issue with the API, I used a local products.json file to simulate the product data.
 
+Deployment: Live Demo at [ https://productdashboardbyneeraj.netlify.app/ ]
